@@ -1,0 +1,112 @@
+#head{
+    color: rgb(104, 190, 219);
+    font-size: 1.5cm;
+    padding: 15px 0px 10px 15px;
+    text-shadow: 5px 5px 5px #2b2b2b;
+    word-spacing: -6px;
+}
+body{
+    background: linear-gradient(to bottom right, rgb(34, 34, 34),gray, rgb(201, 207, 201));
+    overflow: auto;
+}
+a{
+    font-size: 20px;
+    color: rgb(104, 190, 219);
+    list-style: none;
+    text-decoration: wavy;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    font-weight: 400;
+    padding-right: 3%;
+    text-shadow: 5px 5px 5px #2b2b2b;
+}
+.nav {
+    padding-top: 5px;
+    margin: 1px;
+}
+.nav li{
+    margin: 5px;
+    list-style: none;
+    display: inline-flex;
+}
+.nav li a:hover{
+    background-color: gray;
+    color: rgb(14, 14, 48);
+}
+h6 {
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    width: 95%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+h2{
+    font-weight: 600;
+    font-size: 1cm;
+    text-shadow: 5px 5px 5px #2b2b2b;
+}
+.content {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    display: flex;
+    width:  auto;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 1%;
+    padding: 1%;
+}
+p{
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px #2b2b2b;
+}
+.Pics{
+    background: linear-gradient(rgb(79, 80, 79),rgb(34, 34, 34), rgb(79, 80, 79));
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.pic {
+    width: 335px;
+    height: 315px;
+}
+.frame{
+    width: 355px;
+    height: 375px;
+    display: inline-block;
+    border-style:ridge;
+    border-color: #2b2b2b;
+    border-width: 5px;
+    padding: 5px;
+    margin: 1%;
+}
+div p{
+    text-align: center;
+    padding: 5px;
+}
+
+.color,
+.content,
+h6,
+a,
+.cont,
+#head{
+    color: rgb(104, 190, 219);
+}
+.container,
+.content{
+    background: #2b2b2b;
+}
+.cont,
+h6{
+    background: linear-gradient(rgb(130, 131, 130),rgb(34, 34, 34), rgb(130, 131, 130));
+}

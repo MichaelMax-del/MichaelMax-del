@@ -1,0 +1,128 @@
+body{
+    background: linear-gradient(rgb(130, 131, 130),rgb(34, 34, 34), rgb(130, 131, 130));
+    overflow: auto;
+}
+#head{
+    color: rgb(104, 190, 219);
+    font-size: 1.5cm;
+    padding: 15px 0px 10px 15px;
+    text-shadow: 5px 5px 5px #2b2b2b;
+    word-spacing: -6px;
+}
+a{
+    font-size: 20px;
+    color: rgb(104, 190, 219);
+    list-style: none;
+    text-decoration: wavy;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    font-weight: 400;
+    padding-right: 3%;
+    text-shadow: 5px 5px 5px #2b2b2b;
+}
+.nav {
+    padding-top: 5px;
+    margin: 1px;
+}
+.nav li{
+    margin: 5px;
+    list-style: none;
+    display: inline-flex;
+}
+.nav li a:hover{
+    background-color: gray;
+    color: rgb(14, 14, 48);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #2b2b2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 380px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+.card-inner{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+}
+.front-face{
+    backface-visibility: hidden;
+}
+.front-face img{
+    width: 100%;
+    border-radius: 10px;
+}
+.back-face{
+    backface-visibility: hidden;
+    background:rgb(34, 34, 34);
+    color: rgb(104, 190, 219);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: rotateY(180deg);
+}
+.back-face h2{
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.back-face p{
+    font-size: 26;
+    font-weight: 300;
+}
+.social-media i{
+    color: rgb(104, 190, 219);
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background:rgb(95, 89, 89);
+    border-radius: 50%;
+    margin: 25px 6px;
+}
+.social-media a{
+    text-decoration: none;
+}
+.card:hover .card-inner {
+    transform: rotateY(-180deg);
+}
+h6 {
+    text-align: center;
+    color: rgb(104, 190, 219);
+    background: linear-gradient(rgb(130, 131, 130),rgb(34, 34, 34), rgb(130, 131, 130));
+
+}
+.About #btn {
+    color: rgb(104, 190, 219);
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    border-radius: 25px;
+    border-color: rgb(70, 65, 65);
+    border-style: solid;
+}
+.About p {
+    color: rgb(104, 190, 219);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    padding: 0%;
+    margin: 1%;
+    display: none;
+}
